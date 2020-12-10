@@ -4,7 +4,7 @@ export const CanadaComputers: Store = {
 	labels: {
 		inStock: {
 			container: 'div[class="pi-prod-availability"]',
-			text: ['Online In Stock']
+			text: ['Online In Stock', 'Available In Stores']
 		},
 		outOfStock: {
 			container: 'div[class="pi-prod-availability"]',
@@ -481,6 +481,15 @@ export const CanadaComputers: Store = {
 			url:
 				'https://www.canadacomputers.com/product_info.php?cPath=4_64&item_id=183427&language=en'
 		}
+		,
+		{ 
+			brand: 'msi',
+			model: 'gaming x trio',
+			series: '3080',
+			url:
+				'https://www.canadacomputers.com/product_info.php?cPath=43_557_559&item_id=181348&language=en'
+		}
+	/*test item*/
 	],
 	name: 'canadacomputers',
 	waitUntil: 'domcontentloaded'
